@@ -55,6 +55,10 @@ nav ul{
     display: flex;
 }
 /* content */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 .content-text-family {
   font-family: "Open Sans", sans-serif;
@@ -115,4 +119,38 @@ padding: 36px 12px;
     height: 328px;
     border-radius: 48px;
 }
+/* joind */
+.joind {
+    border: 130px 130px 130px 130px;
+    text-align: center;
+    border-radius: 20px;
+     
+   
+   
 
+   background-color: #cfcef1;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.join-title{
+    font-weight: bold;
+    font-size: 38px;
+}
+.item-title {
+    font-weight: bold;
+    font-size: 80px;
+    color: #A647FF;
+
+}
+.item-dis{
+    font-size: 20px;
+    color:#000000
+}
+/* .joind-contener{ */
+    display: flex;
+    justify-content: space-around;
+}
+.join-item{
+    display: flex;
+    justify-content: space-around;
+}
