@@ -2,21 +2,21 @@
 
 
 /* nav styles */
+header{
+     background-image: url(Assets/Hero-bg.png);
+     background-position: top bottom left right;
+
+}
 
 
 nav {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
-    height: 151px;
-    padding: 50px 50px;
-   
-    align-items: center;
-    background-image: url(Assets/Hero-bg.png);
-    
-    
-    
+     padding: 50px 50px;
+    align-items: center;   
 }
+
+
 /* font-family-inter */
 
 .open-san-inter {
@@ -50,4 +50,27 @@ nav a{
 }
 nav ul{
     display: flex;
+}
+/* content */
+
+.content-text-family {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.banner-conten-text{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+    padding: 200px 200px 200px 200px;
+}
+.banner {
+    text-align: center;
+}
+.stay-focus-btn {
+   margin-top: 45px;
+   margin-bottom: 200px;
 }
