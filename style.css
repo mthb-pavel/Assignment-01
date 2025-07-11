@@ -202,8 +202,8 @@ padding: 36px 12px;
 }
 .touch {
     width: 100%;
-    height: 100%px;
-    background-color: #e49c9c;
+    /* height: 100%; */
+    background-color:#FFFFFF;
     /* margin-left: 150px; */
     /* margin-right: 150px; */
     display: flex;
@@ -227,12 +227,14 @@ input[type="text"]{
     background-color: #FFFFFF;
    width: 80%;
    height: 50%;
-   gap:20px;
+   /* gap:100px; */
+   
    padding: 32px 20px;
    border-radius: 10px;
    font-size: 20px;
    font-weight: 200px;
    margin-bottom: 10px;
+   border: none;
     
 }
 /* .touch-contenar{ */
@@ -241,23 +243,49 @@ input[type="text"]{
 .touch-box{
     display: block;
    
-    padding: 32px 20px;
+   padding-top: 200px;
     height: 490px;
 }
 .text-area{
      padding: 32px 20px;
      height: 50%;
-     width: 90%;
+      width: 80%;
 
 }
-input[type="button"]{
-    width: 200px;
-    height: 10px;
-    padding: 100px 19px;
+.btn-touch{
+    width: 80%;
+    height: 20%;
+    padding: 19px 210px;
      background-color: #4E47FF ;
     color:#FFFFFF ;
     font-size: 16px;
 }
-
+.touch-contenar{
+    padding-bottom: 200px;
+    padding-left: 300px;
+    padding-top: 160px;
+    gap: 30px;
+}
+/* footer */
+footer{
+    width: 1440px;
+    height: 428px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.logo-f-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900px;
+}
+.footer-para{
+    color: #8987A1;
+    font-size: small;
+}
+.footer-ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
 
 
