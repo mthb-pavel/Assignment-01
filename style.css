@@ -268,10 +268,13 @@ input[type="text"]{
 }
 /* footer */
 footer{
-    width: 1440px;
+    width: 100%;
     height: 428px;
     background-color: #FFFFFF;
-    text-align: center;
+   display: flex;
+   justify-content: space-around;
+  text-align: center;
+    
 }
 .logo-f-title{
     color: #4E47FF;
@@ -285,7 +288,11 @@ footer{
 .footer-ul{
     list-style: none;
     display:flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 48px;
+    margin-top: 40px;
+    /* padding: 20px 48px 10px 48px; */
+    color: #8987A1;
 }
 
 
