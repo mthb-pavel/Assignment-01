@@ -36,7 +36,7 @@ nav {
     font-weight:1200px;
 
 }
-.sing-up-btn {
+.sing-up-btn:hover {
     width: 132px;
     height: 48px;
     border-radius: 10px;
